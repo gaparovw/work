@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    margin-left: 10px;
+
+}
+ .navbar{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: #eff4fd;
+    display: flex;
+    justify-content: space-around;
+ }
+ .nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+    
+    
+    
+}
+nav ul li a:hover{
+    color: red;
+}
+.navbar img{
+ 
+    
+}
+/* .navbar{
+    
+} */
+
+.navbar1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.navbar img{
+    width: 350px;
+    height: 350px;
+}
+.navbar__1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.navbar1 h1 {
+    color: orange;
+    line-height: 22px;
+    flex-direction: column;
+    height: 5vh;
+    margin-left: -100px;
+    height: 6vh;
+    
+}
+.navbar1 p{
+    margin-left: -100px;
+    font-size: 30px;
+}
+.navbar1 a {
+    background: black;
+    height: 3vh;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+    display: inline-block;
+    margin: 20px 35px;
+    border-radius: 10px; 
+    
+}
+.hu{
+    width: 300px;
+    height: 300px;
+}
+.html {width: 90%; background-color: #04AA6D;
+    animation: html 5s linear;} /* Green */
+    .css {width: 80%; background-color: #2196F3;animation: css 5s linear; } /* Blue */
+    .js {width: 65%; background-color: #f44336; animation: js 5s linear;} /* Red */
+    .php {width: 60%; background-color: #808080;animation: php 5s linear;} /* Dark Grey */
+    
+    /* animation start */
+    .animation__img img{
+        width: 300px;
+        height: 300px;
+        animation-duration: 1s;
+        animation-delay: 2s;
+    }
+    /* animation end */
+    
+    @keyframes html {
+        0% {
+            width: 0%;
+        }
+        0% {
+            width: 50%;
+        }
+        0% {
+            width: 100%;
+    }
+    }
+    @keyframes css {
+        0% {
+            width: 0%;
+        }
+        0% {
+            width: 50%;
+        }
+        0% {
+            width: 100%;
+    }
+    }
+    @keyframes js {
+        0% {
+            width: 0%;
+        }
+        0% {
+            width: 50%;
+        }
+        0% {
+            width: 100%;
+    }
+    }
+    @keyframes php {
+        0% {
+            width: 0%;
+        }
+        0% {
+            width: 50%;
+        }
+        0% {
+            width: 100%;
+    }
+    }
+    @media all and(max-width:1220){
+        .animation{
+            flex-wrap: wrap;
+        }
+        @media all and(max-width:960px){
+
+        }
+    }
+    /* #hu{
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+    }
+     */
+
+
